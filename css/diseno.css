@@ -19,11 +19,11 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     box-shadow:0px 4px 4px rgba(158, 151, 151, 0.5);
 }
-.enlaces{
+.links{
     display: flex;
     justify-content: center;
 }
-.texto-nav{
+.text-nav{
     display: flex;
     justify-content: right;
     padding: 17px 20px 0px 100px;
@@ -32,7 +32,8 @@ nav{
     
 
 }
-.nav-enlace{
+.nav-link{
+    text-decoration: none;
     justify-content: center;
     position: relative;
     display: block;
@@ -68,12 +69,12 @@ nav{
 }
 
 
-.imagen{
+.image{
     
     margin:20px auto;
     width: 20%;
     height: 250px;
-    background-image: url('logo\ studiog2.png');
+    background-image: url("./../img/logo\ studiog2.png");
     background-size: 100% 100%;
     box-shadow:1px 4px 3px rgba(158, 151, 151, 0.5); 
     border-radius: 50%;
@@ -97,13 +98,13 @@ p{
 
 }
 
-.imagenes{
+.images{
     float: inline-start;
     height: 70%;
     width: 100%;
 }
    
-.contenido{
+.content{
     display: inline-block;
     margin: 40px;
     background: rgb(255, 255, 255); 
@@ -115,7 +116,7 @@ p{
 
 }
 
-.boton{
+.buttom{
     text-decoration: none;
     transition: 0.4s;
     font-size: 25px;
@@ -128,7 +129,7 @@ p{
     border-radius: 10px;
     cursor: pointer;
 }
-.boton:hover{ 
+.buttom:hover{ 
     background: rgb(224, 23, 204);
     color: #FFFFF2;
 }

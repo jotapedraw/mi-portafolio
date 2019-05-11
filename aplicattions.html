@@ -18,7 +18,7 @@
 <div class="enlaces">
   <button onclick="activeMenu()" class="nav-enlace">Servicios </button>
     <div class="menu">
-        <button class="nav-enlace">servio1</button>
+        <button class="nav-enlace">Inicio</button>
         <button class="nav-enlace">servio2</button>
         <button class="nav-enlace">servio3</button>
         <button class="nav-enlace">servio4</button>
@@ -37,20 +37,21 @@
         <h2>Usando DOM</h2>
 
     <p id="parrafo">Este es un Texto que para hacer una prueba</p>
-    <button id="boton" class="boton">cambiar texto</button>
+    <button id="button" class="button">cambiar texto</button>
 
     </section>
+    <a href="crud.html" class="button">ir a CRUD</a>
     <script>
     var p = document.getElementById("parrafo");
 
-    var boton = document.getElementById("boton");
+    var button = document.getElementById("button");
 
-    boton.onclick = function (){
+    button.onclick = function (){
        parrafo.innerHTML = "Texto a sido cambiado"; 
 
     }
 
-   
+
     </script>
     
 </body>
