@@ -1,0 +1,23 @@
+.bloque{
+    position: absolute;
+
+    padding: 10px 40px;
+    margin: 40px 10px;
+    width: 410px;
+    border: 2px solid purple;
+}
+h2{
+    padding: 0%;
+}
+p{
+    margin: 10px;
+}
+#parrafo{
+    text-align: justify;
+    
+}
+.boton{
+    position: relative;
+    margin: 5% 14% auto;
+}
+    

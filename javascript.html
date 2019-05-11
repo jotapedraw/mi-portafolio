@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lo que aprendo de JS</title>
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/diseno.css">
+    <link rel="stylesheet" href="css/js.css">
+    <script src="js/menu.js"></script>
+    
+</head>
+<body>
+
+<nav>
+    <img src="img/logo.png" alt="logo" class="logo">
+<div class="enlaces">
+  <button onclick="activeMenu()" class="nav-enlace">Servicios </button>
+    <div class="menu">
+        <button class="nav-enlace">servio1</button>
+        <button class="nav-enlace">servio2</button>
+        <button class="nav-enlace">servio3</button>
+        <button class="nav-enlace">servio4</button>
+    </div>
+    
+  <button class="nav-enlace">Productos</button>
+  <button class="nav-enlace">Novedades</button>
+ <button class="nav-enlace">Contacto</button>
+</div>
+<a href="#" class="texto-nav">Iniciar sesión</a>
+</nav>
+    
+<body>
+<h1>Javascript</h1>
+    <section class="bloque">
+        <h2>Usando DOM</h2>
+
+    <p id="parrafo">Este es un Texto que para hacer una prueba</p>
+    <button id="boton" class="boton">cambiar texto</button>
+
+    </section>
+    <script>
+    var p = document.getElementById("parrafo");
+
+    var boton = document.getElementById("boton");
+
+    boton.onclick = function (){
+       parrafo.innerHTML = "Texto a sido cambiado"; 
+
+    }
+
+   
+    </script>
+    
+</body>
+</html>
