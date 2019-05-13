@@ -6,12 +6,12 @@ var necesarios = 12;
 function sumarPuntos(){
    puntos++;
    document.getElementById("puntos").innerHTML = "Puntos: <b>" + puntos + "/" + necesarios + "  </b>";
-   randNum =  Math.round(Math.random()*550);
+   randNum =  Math.round(Math.random()*540);
    randNum2 =  Math.round(Math.random()*550);
    document.getElementById("player").style.marginTop =randNum + "px";
    document.getElementById("player").style.marginLeft =randNum2 + "px";
    if (puntos == 12) {
-      alert("Ganaste! Gracias por jugar");
+      alert("HAZ AVANZADO AL NIVEL 3");
       nextlvl();		
    }
 }
@@ -30,5 +30,5 @@ function restarTiempo() {
 setInterval(restarTiempo,1000);
 
 function nextlvl(){
-   document.location.href="index.html";
+   document.location.href="lvl3.html";
   }
